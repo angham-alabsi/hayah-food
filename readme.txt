@@ -1,2 +1,2 @@
 user_name = angham
-password = 22222222
+password = 123456

@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.1
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 13, 2020 at 09:27 AM
--- Server version: 10.4.8-MariaDB
--- PHP Version: 7.3.10
+-- Generation Time: Apr 30, 2024 at 06:03 PM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 8.0.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -72,7 +71,19 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`id`, `cate_name`, `cate_name_en`, `cate_status`, `created_at`, `updated_at`, `cate_description`, `cate_description_en`, `user_id`) VALUES
-(1, 'فاصوليا', 'beans', 'متوفر', '2020-04-12 03:27:51', '2020-04-12 03:27:51', 'hjhkjkhkhkhmn', 'jkhjkhjkhjkhjkh', 26);
+(1, 'تونة', 'Tuna', 'متوفر', '2020-04-12 03:27:51', '2024-04-29 04:56:09', 'hjhkjkhkhkhmn', 'jkhjkhjkhjkhjkh', 26),
+(2, 'زيوت', 'Oil', 'متوفر', '2024-04-29 05:11:43', '2024-04-29 05:11:43', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 4),
+(3, 'بقوليات', 'bean', 'متوفر', '2024-04-29 05:14:45', '2024-04-29 05:14:45', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 4),
+(4, 'دقيق', 'flour', 'متوفر', '2024-04-29 05:16:04', '2024-04-29 05:16:04', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 4),
+(5, 'أجبان', 'Cheeses', 'متوفر', '2024-04-29 05:17:58', '2024-04-29 05:17:58', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 4),
+(6, 'حليب', 'Milk', 'متوفر', '2024-04-29 05:18:58', '2024-04-29 05:18:58', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 4),
+(7, 'عسل', 'honey', 'متوفر', '2024-04-29 05:22:09', '2024-04-29 05:22:09', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 4),
+(8, 'فواكهة معلبة', 'Canned fruits', 'متوفر', '2024-04-29 05:27:40', '2024-04-29 05:27:40', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 4),
+(9, 'جام', 'Jam', 'متوفر', '2024-04-29 05:28:52', '2024-04-29 05:28:52', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 4),
+(10, 'شاي', 'Tea', 'متوفر', '2024-04-29 05:29:39', '2024-04-29 05:29:39', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 4),
+(11, 'رز', 'Rice', 'متوفر', '2024-04-29 05:30:07', '2024-04-29 05:30:07', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 4),
+(12, 'مكرونة', 'Pasta', 'متوفر', '2024-04-29 05:31:36', '2024-04-29 05:31:36', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 4),
+(13, 'صلصة', 'Sauce', 'متوفر', '2024-04-29 05:33:58', '2024-04-29 05:33:58', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 4);
 
 -- --------------------------------------------------------
 
@@ -115,7 +126,7 @@ CREATE TABLE `hf_info` (
 --
 
 INSERT INTO `hf_info` (`info_id`, `user_count`, `cate_count`, `brand_count`, `product_count`, `db_size`) VALUES
-(1, 3, 16, 5, 42, 0.24);
+(1, 3, 13, 5, 1, NULL);
 
 -- --------------------------------------------------------
 
@@ -193,43 +204,34 @@ CREATE TABLE `media_categories` (
 --
 
 INSERT INTO `media_categories` (`media_id`, `media_path`, `media_name`, `media_status`, `media_size`, `media_exten`, `created_at`, `updated_at`, `cate_id`, `type_id`, `user_id`) VALUES
-(1, 'storage/img/ddd.jpg', 'ddd.jpg', 'متوفر', 10657, 'jpeg', '2020-04-12 06:27:52', '2020-04-12 06:27:52', 1, 1, 26),
 (2, 'storage/img/product_tuna.jpg', 'product_tuna.jpg', 'متوفر', 31487, 'jpeg', '2020-03-23 07:22:49', '2020-03-23 07:22:49', 1, 1, 4),
-(3, 'storage/img/product_milk.jpg', 'product_milk.jpg', 'متوفر', 28715, 'jpeg', '2020-03-23 07:23:57', '2020-03-23 07:23:57', 2, 1, 4),
-(4, 'storage/img/product_fruit.jpg', 'product_fruit.jpg', 'متوفر', 28440, 'jpeg', '2020-03-23 07:26:24', '2020-03-23 07:26:24', 3, 1, 4),
-(5, 'storage/img/product_tea.jpg', 'product_tea.jpg', 'متوفر', 30166, 'jpeg', '2020-03-23 07:27:06', '2020-03-23 07:27:06', 4, 1, 4),
-(6, 'storage/img/product_tomato.jpg', 'product_tomato.jpg', 'متوفر', 30933, 'jpeg', '2020-03-23 07:28:00', '2020-03-23 07:28:00', 5, 1, 4),
-(7, 'storage/img/product_milk2.jpg', 'product_milk2.jpg', 'متوفر', 26942, 'jpeg', '2020-03-23 07:30:09', '2020-03-23 07:30:09', 6, 1, 4),
-(8, 'storage/img/product_cannes.jpg', 'product_cannes.jpg', 'متوفر', 33192, 'jpeg', '2020-03-23 07:33:07', '2020-03-23 07:33:07', 7, 1, 4),
-(9, 'storage/img/product_pasta.jpg', 'product_pasta.jpg', 'متوفر', 71037, 'jpeg', '2020-03-23 07:34:54', '2020-03-23 07:34:54', 8, 1, 4),
-(10, 'storage/img/product_honey.jpg', 'product_honey.jpg', 'متوفر', 26515, 'jpeg', '2020-03-23 07:35:42', '2020-03-23 07:35:42', 9, 1, 4),
-(11, 'storage/img/product_rice.jpg', 'product_rice.jpg', 'متوفر', 24794, 'jpeg', '2020-03-23 07:36:56', '2020-03-23 07:36:56', 10, 1, 4),
-(12, 'storage/img/product_flour.jpg', 'product_flour.jpg', 'متوفر', 29792, 'jpeg', '2020-03-23 07:37:35', '2020-03-23 07:37:35', 11, 1, 4),
-(13, 'storage/img/product_cheese.jpg', 'product_cheese.jpg', 'متوفر', 26558, 'jpeg', '2020-03-23 07:38:25', '2020-03-23 07:38:25', 12, 1, 4),
-(14, 'storage/img/product_oil.jpg', 'product_oil.jpg', 'متوفر', 29802, 'jpeg', '2020-03-23 07:39:32', '2020-03-23 07:39:32', 13, 1, 4),
-(15, 'storage/img/product_jam.jpg', 'product_jam.jpg', 'متوفر', 21012, 'jpeg', '2020-03-23 07:41:02', '2020-03-23 07:41:02', 14, 1, 4),
-(16, 'storage/img/hot_sauce.jpg', 'hot_sauce.jpg', 'متوفر', 69023, 'jpeg', '2020-03-23 07:42:32', '2020-03-23 07:42:32', 15, 1, 4),
-(17, 'storage/img/ketchup.jpg', 'ketchup.jpg', 'متوفر', 60138, 'jpeg', '2020-03-23 07:43:07', '2020-03-23 07:43:07', 16, 1, 4),
-(19, 'storage/img/tuna_bg.jpg', 'tuna_bg.jpg', 'متوفر', 29620, 'jpeg', '2020-03-24 23:48:14', '2020-03-24 23:48:14', 1, 4, 4),
-(20, 'storage/img/can_bg.jpg', 'can_bg.jpg', 'متوفر', 24280, 'jpeg', '2020-03-24 23:53:06', '2020-03-24 23:53:06', 7, 4, 4),
-(21, 'storage/img/milk_bg.jpg', 'milk_bg.jpg', 'متوفر', 12677, 'jpeg', '2020-03-25 10:15:02', '2020-03-25 10:15:02', 2, 4, 4),
-(22, 'storage/img/fruit_bg.jpg', 'fruit_bg.jpg', 'متوفر', 22687, 'jpeg', '2020-03-25 10:40:21', '2020-03-25 10:40:21', 3, 4, 4),
-(23, 'storage/img/tea_bg.jpg', 'tea_bg.jpg', 'متوفر', 23586, 'jpeg', '2020-03-25 10:42:35', '2020-03-25 10:42:35', 4, 4, 4),
-(24, 'storage/img/tomato_bg.jpg', 'tomato_bg.jpg', 'متوفر', 48546, 'jpeg', '2020-03-25 10:43:40', '2020-03-25 10:43:40', 5, 4, 4),
-(25, 'storage/img/cream_bg.jpg', 'cream_bg.jpg', 'متوفر', 9918, 'jpeg', '2020-03-25 10:44:37', '2020-03-25 10:44:37', 6, 4, 4),
-(26, 'storage/img/pasta_bg.jpg', 'pasta_bg.jpg', 'متوفر', 34075, 'jpeg', '2020-03-25 10:46:31', '2020-03-25 10:46:31', 8, 4, 4),
-(27, 'storage/img/honey_bg.jpg', 'honey_bg.jpg', 'متوفر', 27657, 'jpeg', '2020-03-25 10:47:24', '2020-03-25 10:47:24', 9, 4, 4),
-(28, 'storage/img/rice_bg.jpg', 'rice_bg.jpg', 'متوفر', 34796, 'jpeg', '2020-03-25 10:53:54', '2020-04-01 10:53:54', 10, 4, 4),
-(29, 'storage/img/flour_bg.jpg', 'flour_bg.jpg', 'متوفر', 24385, 'jpeg', '2020-03-25 10:54:45', '2020-04-01 10:54:45', 11, 4, 4),
+(27, 'storage/img/honey_bg.jpg', 'honey_bg.jpg', 'متوفر', 27657, 'jpeg', '2020-03-25 10:47:24', '2020-03-25 10:47:24', 7, 4, 4),
+(28, 'storage/img/rice_bg.jpg', 'rice_bg.jpg', 'متوفر', 34796, 'jpeg', '2020-03-25 10:53:54', '2020-04-01 10:53:54', 11, 4, 4),
+(29, 'storage/img/flour_bg.jpg', 'flour_bg.jpg', 'متوفر', 24385, 'jpeg', '2020-03-25 10:54:45', '2020-04-01 10:54:45', 4, 4, 4),
 (30, 'storage/img/cheese1_bg.jpg', 'cheese1_bg.jpg', 'غير متوفر', 15595, 'jpeg', '2020-03-25 10:55:32', '2020-03-25 10:55:32', 12, 4, 4),
-(31, 'storage/img/oil_bg.jpg', 'oil_bg.jpg', 'متوفر', 35464, 'jpeg', '2020-03-25 10:56:51', '2020-03-25 10:56:51', 13, 4, 4),
-(32, 'storage/img/jam_bg.jpg', 'jam_bg.jpg', 'متوفر', 49261, 'jpeg', '2020-03-25 11:08:19', '2020-03-25 11:08:19', 14, 4, 4),
-(33, 'storage/img/ketchup_bg.jpg', 'ketchup_bg.jpg', 'متوفر', 25121, 'jpeg', '2020-03-25 11:11:43', '2020-03-25 11:11:43', 16, 4, 4),
+(31, 'storage/img/oil_bg.jpg', 'oil_bg.jpg', 'متوفر', 35464, 'jpeg', '2020-03-25 10:56:51', '2020-03-25 10:56:51', 2, 4, 4),
+(33, 'storage/img/ketchup_bg.jpg', 'ketchup_bg.jpg', 'غير متوفر', 25121, 'jpeg', '2020-03-25 11:11:43', '2020-03-25 11:11:43', 16, 4, 4),
 (34, 'storage/img/home_slide3.jpg', 'home_slide3.jpg', 'متوفر', 62827, 'jpeg', '2020-03-26 04:49:30', '2020-03-26 04:49:30', 7, 3, 4),
 (35, 'storage/img/home_slide2.jpg', 'home_slide2.jpg', 'متوفر', 60617, 'jpeg', '2020-03-26 04:52:13', '2020-03-26 04:52:13', 13, 3, 4),
 (36, 'storage/img/home_slide4.jpg', 'home_slide4.jpg', 'متوفر', 73673, 'jpeg', '2020-03-26 04:55:35', '2020-03-26 04:55:35', 10, 3, 4),
-(37, 'storage/img/cheese2_bg.jpg', 'cheese2_bg.jpg', 'متوفر', 21366, 'jpeg', '2020-03-26 08:56:48', '2020-03-26 08:56:48', 12, 4, 4),
-(38, 'storage/img/media1.jpg', 'media1.jpg', 'متوفر', 59371, 'jpeg', '2020-04-02 08:10:09', '2020-04-02 08:10:09', 3, 2, 4);
+(37, 'storage/img/cheese2_bg.jpg', 'cheese2_bg.jpg', 'متوفر', 21366, 'jpeg', '2020-03-26 08:56:48', '2020-03-26 08:56:48', 5, 4, 4),
+(38, 'storage/img/media1.jpg', 'media1.jpg', 'متوفر', 59371, 'jpeg', '2020-04-02 08:10:09', '2020-04-02 08:10:09', 3, 2, 4),
+(39, 'storage/img/product_oil.jpg', 'product_oil.jpg', 'متوفر', 29802, 'jpg', '2024-04-29 08:11:44', '2024-04-29 08:11:44', 2, 1, 4),
+(40, 'storage/img/product_cannes.jpg', 'product_cannes.jpg', 'متوفر', 33192, 'jpg', '2024-04-29 08:14:45', '2024-04-29 08:14:45', 3, 1, 4),
+(41, 'storage/img/product_flour.jpg', 'product_flour.jpg', 'متوفر', 29792, 'jpg', '2024-04-29 08:16:05', '2024-04-29 08:16:05', 4, 1, 4),
+(42, 'storage/img/product_cheese.jpg', 'product_cheese.jpg', 'متوفر', 26558, 'jpg', '2024-04-29 08:17:58', '2024-04-29 08:17:58', 5, 1, 4),
+(43, 'storage/img/product_milk.jpg', 'product_milk.jpg', 'متوفر', 28715, 'jpg', '2024-04-29 08:18:59', '2024-04-29 08:18:59', 6, 1, 4),
+(44, 'storage/img/product_honey.jpg', 'product_honey.jpg', 'متوفر', 26515, 'jpg', '2024-04-29 08:22:09', '2024-04-29 08:22:09', 7, 1, 4),
+(45, 'storage/img/product_fruit.jpg', 'product_fruit.jpg', 'متوفر', 28440, 'jpg', '2024-04-29 08:27:40', '2024-04-29 08:27:40', 8, 1, 4),
+(46, 'storage/img/product_jam.jpg', 'product_jam.jpg', 'متوفر', 21012, 'jpg', '2024-04-29 08:28:52', '2024-04-29 08:28:52', 9, 1, 4),
+(47, 'storage/img/product_tea.jpg', 'product_tea.jpg', 'متوفر', 30166, 'jpg', '2024-04-29 08:29:39', '2024-04-29 08:29:39', 10, 1, 4),
+(48, 'storage/img/product_rice.jpg', 'product_rice.jpg', 'متوفر', 24794, 'jpg', '2024-04-29 08:30:08', '2024-04-29 08:30:08', 11, 1, 4),
+(49, 'storage/img/product_pasta.jpg', 'product_pasta.jpg', 'متوفر', 71037, 'jpg', '2024-04-29 08:31:36', '2024-04-29 08:31:36', 12, 1, 4),
+(50, 'storage/img/product_tomato.jpg', 'product_tomato.jpg', 'متوفر', 30933, 'jpg', '2024-04-29 08:33:58', '2024-04-29 08:33:58', 13, 1, 4),
+(51, 'storage/img/can_bg.jpg', 'can_bg.jpg', 'متوفر', 24280, 'jpg', '2024-04-30 11:27:07', '2024-04-30 11:27:07', 3, 4, 4),
+(52, 'storage/img/honey1.jpg', 'honey1.jpg', 'متوفر', 531553, 'jpg', '2024-04-30 11:28:02', '2024-04-30 11:28:02', 7, 4, 4),
+(53, 'storage/img/jam_bg.jpg', 'jam_bg.jpg', 'متوفر', 49261, 'jpg', '2024-04-30 11:32:10', '2024-04-30 11:32:10', 9, 4, 4),
+(54, 'storage/img/pasta_bg.jpg', 'pasta_bg.jpg', 'متوفر', 34075, 'jpg', '2024-04-30 11:33:36', '2024-04-30 11:33:36', 12, 4, 4);
 
 -- --------------------------------------------------------
 
@@ -250,6 +252,15 @@ CREATE TABLE `media_products` (
   `type_id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `media_products`
+--
+
+INSERT INTO `media_products` (`media_id`, `media_path`, `media_name`, `media_status`, `media_size`, `media_exten`, `created_at`, `updated_at`, `pro_id`, `type_id`, `user_id`) VALUES
+(2, 'storage/img/oil2.png', 'oil2.png', 'متوفر', 168292, 'png', '2024-04-29 08:41:58', '2024-04-29 08:41:58', 6, 1, 4),
+(3, 'storage/img/oil1.png', 'oil1.png', 'متوفر', 150573, 'png', '2024-04-30 14:52:25', '2024-04-30 14:52:25', 7, 1, 4),
+(4, 'storage/img/oil5.png', 'oil5.png', 'متوفر', 165766, 'png', '2024-04-30 14:53:38', '2024-04-30 14:53:38', 8, 1, 4);
 
 -- --------------------------------------------------------
 
@@ -338,6 +349,15 @@ CREATE TABLE `products` (
   `cate_id` int(11) NOT NULL,
   `brand_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `products`
+--
+
+INSERT INTO `products` (`pro_id`, `pro_name`, `pro_name_en`, `pro_description`, `pro_description_en`, `pro_status`, `pro_unit`, `pro_weight`, `created_at`, `updated_at`, `user_id`, `cate_id`, `brand_id`) VALUES
+(6, 'زيت بسمة', 'Basma oil', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'متوفر', 'لتر', 250, '2024-04-29 05:41:58', '2024-04-29 05:41:58', 4, 2, 1),
+(7, 'زيت بسمة أ', 'A Basma oil', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'متوفر', 'لتر', 1, '2024-04-30 11:52:25', '2024-04-30 11:54:04', 4, 2, 1),
+(8, 'زيت بسمة ب', 'Basma oil B', 'لوريم إيبسوم هو ببساطة نص وهمي من صناعة الطباعة والتنضيد. لقد كان لوريم إيبسوم هو النص الوهمي القياسي في هذه الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'متوفر', 'لتر', 5, '2024-04-30 11:53:38', '2024-04-30 11:53:38', 4, 2, 1);
 
 -- --------------------------------------------------------
 
@@ -451,9 +471,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `user_name`, `user_password`, `user_email`, `user_type`, `user_status`, `created_at`, `updated_at`) VALUES
-(4, 'angham', 'da120cb36bcd541e4c596153ee2498ca095fe355', 'angham@gmail.com', 'مسؤول', 'غير مفعل', '2020-02-27 06:27:30', '2020-04-11 06:51:48'),
-(26, 'angham2', 'da120cb36bcd541e4c596153ee2498ca095fe355', 'anghamalabsi22@gmail.com', 'مسؤول', 'مفعل', '2020-04-11 06:50:49', '2020-04-11 09:35:51'),
-(27, 'sama', 'da120cb36bcd541e4c596153ee2498ca095fe355', 'anghamalabsi22@gmail.com', 'مسؤول', 'مفعل', '2020-04-11 09:34:49', '2020-04-11 09:34:49');
+(4, 'angham', '7c4a8d09ca3762af61e59520943dc26494f8941b', 'angham@gmail.com', 'مسؤول', 'مفعل', '2020-02-27 06:27:30', '2020-04-11 06:51:48'),
+(26, 'angham2', '7c4a8d09ca3762af61e59520943dc26494f8941b', 'anghamalabsi22@gmail.com', 'مسؤول', 'مفعل', '2020-04-11 06:50:49', '2020-04-11 09:35:51'),
+(27, 'sama', '7c4a8d09ca3762af61e59520943dc26494f8941b', 'anghamalabsi22@gmail.com', 'مسؤول', 'مفعل', '2020-04-11 09:34:49', '2020-04-11 09:34:49');
 
 -- --------------------------------------------------------
 
@@ -614,7 +634,7 @@ ALTER TABLE `brands`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `galleries`
@@ -644,13 +664,13 @@ ALTER TABLE `media_brands`
 -- AUTO_INCREMENT for table `media_categories`
 --
 ALTER TABLE `media_categories`
-  MODIFY `media_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `media_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
 
 --
 -- AUTO_INCREMENT for table `media_products`
 --
 ALTER TABLE `media_products`
-  MODIFY `media_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `media_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `media_types`
@@ -674,7 +694,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `pro_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `pro_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `receivedemails`
