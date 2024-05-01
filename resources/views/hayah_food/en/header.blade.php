@@ -6,6 +6,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>@yield('title')</title>
+    <link rel="icon" href="{{ asset('img/hayahLogo.png')}}"/><!-- HEADER ICON -->
     <link rel="stylesheet" href="{{url('/css/css_hf_en/bootstrap.min.css')}}" /> <!-- Bootstrap Style -->
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive TAG -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Microsoft Browsers -->
@@ -19,11 +20,10 @@
    <meta property="og:description" content="Natural &amp; Healthy high Quality Foodstuff. HAYAH FOOD HAYAH Foods working in producing foodstuff products which Compatible with the standards and terms of food safety from fertilizing and pesticide according to the conditions imposed by the Ministries of Health and Environment. including: Frozen vegetables and fruits Fruit Juice (Nectar and drink) Jam Ketchup Concentrates Macaroni Cheese …">
     <meta property="og:url" content="http://www.hayahfood.com/">
     <meta property="og:site_name" content="HAYAH FOOD">
-    <link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{url('/css/css_hf_en/main_style.css')}}" /> <!-- Style -->
     <link rel="stylesheet" href="{{url('/css/css_hf_en/main_style1.css')}}" /> <!-- Style -->
     <link rel="stylesheet" href="{{url('/css/css_hf_en/mediaquery.css')}}" /> <!-- MediaQuery -->
-    <link rel="icon" href="/img/titleLogo.png"> <!-- HEADER ICON -->
 
 </head>
 
@@ -113,7 +113,7 @@
             <div class="social_txt text-center">
                 <div class="container" >
                     <div class="row">
-                        <div class="col-md  text-left p-3 footer_text  "> 
+                        <div class="col-md  text-left p-3 footer_text  ">
                             <h2>HAYAH FOOD</h2>
                             <h6>Republic Of Yemen</h6>
                             <h6>POST OFFICE: 1316 SANAA</h6>
@@ -123,8 +123,8 @@
                         </div>
                         <div class="col-md">
                             <img src="/img/hayahLogo.png" width="40%">
-                            
-                        
+
+
                         </div>
                     </div>
                     <div class="col-md text-center text-white pb-3">

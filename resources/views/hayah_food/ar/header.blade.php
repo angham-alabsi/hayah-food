@@ -6,6 +6,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>@yield('title')</title>
+    <link rel="icon" href="{{ asset('img/hayahLogo.png')}}"/><!-- HEADER ICON -->
     <link rel="stylesheet" href="{{url('/css/css_hf_ar/bootstrap.min.css')}}" /> <!-- Bootstrap Style -->
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive TAG -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Microsoft Browsers -->
@@ -18,14 +19,13 @@
 <meta property="og:site_name" content="HAYAH FOOD">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
-        
+
     <!-- Font Awesome CDN -->
     <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet"> <!-- Google Font -->
     <link rel="stylesheet" href="{{url('/css/css_hf_ar/main_style.css')}}" /> <!-- Style -->
     <link rel="stylesheet" href="{{url('/css/css_hf_ar/main_style1.css')}}" /> <!-- Style -->
     <link rel="stylesheet" href="{{url('/css/css_hf_ar/mediaquery.css')}}" /> <!-- MediaQuery -->
-    <link rel="icon" href="/img/titleLogo.png"> <!-- HEADER ICON -->
-   
+
 </head>
 
 <body>
@@ -97,7 +97,7 @@
           </li>
            <li class="nav-item">
             <a id="nav" class="nav-link" href="/products"><i class="fas fa-book-reader"></i> منتجاتنا</a>
-          </li> 
+          </li>
           <!--<li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="products.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="fas fa-product-hunt"></i> منتجاتنا
@@ -124,16 +124,16 @@
     </div>
 </section>
 <!--END NAVBAR-->
-    
 
- @yield('content') 
-    
+
+ @yield('content')
+
 <!--START FOOTER-->
     <section class="footer_block">
         <div class="social_txt text-center">
             <div class="container" >
                 <div class="row">
-                    <div class="col-md  text-right p-3 footer_text  "> 
+                    <div class="col-md  text-right p-3 footer_text  ">
                         <h2>حياة فوود</h2>
                         <h6>الجمهورية اليمنية - صنعاء </h6>
                         <!--<h6>حدة المدينة - شارع صفر , مؤسسة أبو نبيل </h6>-->
